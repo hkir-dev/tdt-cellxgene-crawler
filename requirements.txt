@@ -1,3 +1,3 @@
 pyyaml
 cellxgene-census
-cas-tools==0.0.1.dev27
+cas-tools==0.0.1.dev30

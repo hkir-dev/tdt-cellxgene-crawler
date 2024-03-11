@@ -1,61 +1,14 @@
 datasets:
 
   - id: CCN20240304
-    title: "Supercluster: IT-projecting excitatory neurons"
-    description: "Cellular and molecular characterization of human cortical cytoarchitecture. Supercluster: IT-projecting excitatory neurons."
-    matrix_file_id: CellXGene_dataset:c3aa4f95-7a18-4a7d-8dd8-ca324d714363
+    title: "Dissection: Middle temporal gyrus (MTG)"
+    description: "Cellular and molecular characterization of human cortical cytoarchitecture. Dissection: Middle temporal gyrus (MTG)."
+    matrix_file_id: CellXGene_dataset:015c230d-650c-4527-870d-8a805849a382
     github_org: hkir-dev
-    repo: human-neocortex-it-projecting-excitatory-neurons
+    repo: human-neocortex-middle-temporal-gyrus
     author: https://orcid.org/0000-0003-3373-7386
     accession_id_prefix: AITXXX
     labelsets:
       - CrossArea_cluster
       - CrossArea_subclass
-
-  - id: CCN20240304
-    title: "Supercluster: MGE-derived interneurons"
-    description: "Cellular and molecular characterization of human cortical cytoarchitecture. Supercluster: MGE-derived interneurons."
-    matrix_file_id: CellXGene_dataset:9c63201d-bfd9-41a8-bbbc-18d947556f3d
-    github_org: hkir-dev
-    repo: human-neocortex-mge-derived-interneurons
-    author: https://orcid.org/0000-0003-3373-7386
-    accession_id_prefix: AITXXX
-    labelsets:
-      - CrossArea_cluster
-      - CrossArea_subclass
-
-  - id: CCN20240304
-    title: "Supercluster: CGE-derived interneurons"
-    description: "Cellular and molecular characterization of human cortical cytoarchitecture. Supercluster: CGE-derived interneurons."
-    matrix_file_id: CellXGene_dataset:e4ddac12-f48f-4455-8e8d-c2a48a683437
-    github_org: hkir-dev
-    repo: human-neocortex-cge-derived-interneurons
-    author: https://orcid.org/0000-0003-3373-7386
-    accession_id_prefix: AITXXX
-    labelsets:
-      - CrossArea_cluster
-      - CrossArea_subclass
-
-  - id: CCN20240304
-    title: "Supercluster: Non-neuronal cells"
-    description: "Cellular and molecular characterization of human cortical cytoarchitecture. Supercluster: Non-neuronal cells."
-    matrix_file_id: CellXGene_dataset:5346f9c6-755e-4336-94cc-38706ec00c2f
-    github_org: hkir-dev
-    repo: human-neocortex-non-neuronal-cells
-    author: https://orcid.org/0000-0003-3373-7386
-    accession_id_prefix: AITXXX
-    labelsets:
-      - CrossArea_cluster
-      - CrossArea_subclass
-
-  - id: CCN20240304
-    title: "Supercluster: Deep layer (non-IT) excitatory neurons"
-    description: "Cellular and molecular characterization of human cortical cytoarchitecture. Supercluster: Deep layer (non-IT) excitatory neurons."
-    matrix_file_id: CellXGene_dataset:d01c9dff-abd1-4825-bf30-2eb2ba74597e
-    github_org: hkir-dev
-    repo: human-neocortex-deep-layer-excitatory-neurons
-    author: https://orcid.org/0000-0003-3373-7386
-    accession_id_prefix: AITXXX
-    labelsets:
-      - CrossArea_cluster
-      - CrossArea_subclass
+      - Class
